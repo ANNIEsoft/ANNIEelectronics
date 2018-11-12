@@ -7,8 +7,8 @@ of the system:
 
 * The Analog Pick-Up Board: This is the board that bring the signals from the LAPPD around the backside of a PCB with XX connectors to mate with the ACDC cards.
 
-* The Bridge Boards: make the connection 
+* The Bridge Boards: bridge the connection from the silver striplines of the LAPPD to the Analog Pick-up board
 
-* The two ACDC cards: 
+* The two ACDC cards: Plug into the back of the analog pickup board and digitize the signals
 
-* LV-HV Board
+* LV-HV Board: Provides the five HV lines for the LAPPD, two 5-V lines for the ACDC cards, optical isolation for the LVDS communication between the ACDCs (in the housing) and the ACC cards (surface), and slow monitoring/communication via a microcontroller and CANBUS.
